@@ -1,0 +1,160 @@
+body{
+    background-image: url("http://is5.mzstatic.com/image/thumb/Music69/v4/d7/ca/72/d7ca72bf-402f-9aa2-4adb-41d01f280027/source/100000x100000-999.jpg");
+}
+#homeButton{
+    position: absolute;
+    top: 3px;
+    left: 0px;
+}
+header h1 {
+    border: solid;
+    padding: .5em 2em .8em 14em;
+    background-image: repeating-linear-gradient(-135deg, white 0, red 1.5em, red 0em, white 4em ); 
+    font-size: 40px;
+    font-family: 'lhf billhead 1910', sans-serif;
+    
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline;
+}
+header nav ul li a{
+    color: white;
+}
+header nav {
+    border: solid;
+    padding: 1em 0 1em 0;
+    background-color: black;
+}
+
+#BandPicture{
+    position: absolute;
+    top: 155px;
+    left: 300px;
+}
+#BandBio{
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    width: 400px;
+    background-color: #dd0716; 
+    box-shadow: 10px 10px 5px black;
+    padding: 1em 1em 1em 1em;
+    font-family: 'Lobster', cursive ;
+}
+.firstNavBar{
+    padding-left: 250px;
+}
+a:link{
+    font-weight: bold;
+    color:dodgerblue;
+}
+a:hover{
+    color: red;
+}
+#imageOfVic{
+    position: absolute;
+    top: 170px;
+    left: 399px;
+}
+#vicsParagraph{
+    position: absolute;
+    top: 245px;
+    left: 650px;
+    width: 390px;
+    background-color: #dd0716;
+    border: solid;
+    padding: 1em 1em 1em 1em;
+    box-shadow: 10px 10px 5px black;
+}
+#imageOfMike{
+    position: absolute;
+    top: 450px;
+    left: 350px;
+}
+#mikesParagraph{
+    position: absolute;
+    top: 485px;
+    left: 650px;
+    width: 390px;
+    background-color: #dd0716;
+    border: solid;
+    padding: 1em 1em 1em 1em;
+    box-shadow: 10px 10px 5px black;
+}
+#imageOfJamie{
+    position: absolute;
+    top: 650px;
+    left: 335px;
+}
+#jamiesParagraph{
+    position: absolute;
+    top: 720px;
+    left: 650px;
+    width: 390px;
+    background-color: #dd0716;
+    border: solid;
+    padding: 1em 1em 1em 1em;
+    box-shadow: 10px 10px 5px black;
+}
+#imageOfTony{
+    position: absolute;
+    top: 1000px;
+    left: 335px;
+    padding-bottom: 5em;
+}
+#tonysParagraph{
+    position: absolute;
+    top: 1015px;
+    left: 650px;
+    width: 390px;
+    background-color: #dd0716;
+    border: solid;
+    padding: 1em 1em 1em 1em;
+    box-shadow: 10px 10px 5px black;
+}
+#firstVideo{
+    position: absolute;
+    top: 160px;
+    left: 330px;
+}
+#musicTable{
+    border: solid;
+    border-color: black;
+    background: #dd0716;
+    margin-top: 1em;
+}
+#tourTable{
+    position: absolute;
+    top: 500px;
+    left: 375px;
+    border: solid;
+    border-color: black;
+    background: #dd0716;
+    margin-top: 1em;
+    padding: 10px 10px 20px 20px;
+}
+#concertPictureOne{
+    position: absolute;
+    top: 160px;
+    left: 400px;
+}
+#firstForm{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    background-color: #dd0716;
+    color: white;
+    padding: 1em 1em 1em 1em;
+    border: solid;
+    border-color: black;
+    font-family: 'lobster', sans-serif;
+}
+
+@media only screen and (max-width: 480px){
+    body{
+        font-size: 15px;
+        width: 35em;
+    }
+}
